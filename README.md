@@ -50,14 +50,14 @@ The first model built mimics how a human plays by simply picking words randomly 
 
 
 ### DQM
-[The following RL section is yet to be completed, please see [roadmap](#Roadmap)]
+[The following deep learning section is yet to be completed, please see [roadmap](#Roadmap)]
 
-Whilst Wordle may at first look like an overly simple use for reinforcement learning, the problem is analogous to the [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit), whereby the user must allocate a fixed limited set of resources (letters) between competing choices (placement in word) in a way that maximises expected gain (minimum number of attempts). Our ideal model should balance _exploration_, as we attempt to guess the new word, and _exploitation_, where we learn strategic heuristics such as what word to start with.
+Whilst Wordle may at first look like an overly simple use for deep learning, the problem is analogous to the [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit), whereby the user must allocate a fixed limited set of resources (letters) between competing choices (placement in word) in a way that maximises expected gain (minimum number of attempts). Our ideal model should balance _exploration_, as we attempt to guess the new word, and _exploitation_, where we learn strategic heuristics such as what word to start with.
 
 ## <a name="Roadmap"></a>Roadmap
 
 * ~~Wordle Game Environment~~
 * ~~Naive Bot~~
 * ~~CLI interface~~
-* Naive bayes bot
-* DQM Reinforcement learning bot
+* Naive bot using conditional probabilities instead of random selection
+* Markov Decision process bot
